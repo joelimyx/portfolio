@@ -1,3 +1,41 @@
 *{
     font-size: 16px;
+    font-family:  "Merriweather", Arial, Helvetica, sans-serif;
+    letter-spacing: 1.5px;
+}
+body{
+    margin: 0;
+}
+
+header{
+    display: block;
+    background-color: rgb(47, 128, 248);
+    color: snow;
+    padding: 10px 10px;
+}
+
+header h1{
+    font-size: 3rem;
+    padding-left: 10px;
+    margin: 10px;
+}
+nav ul{
+    padding: 0 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 1.5rem;
+    color: snow;
+    padding: 0 15px;
+}
+@media screen and (max-width: 800px){
+    *{
+        text-align: center;
+    }
+    nav ul{
+        display: block;
+    }
 }
