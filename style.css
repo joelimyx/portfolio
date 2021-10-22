@@ -31,7 +31,7 @@ nav ul li{
     color: snow;
     padding: 0 15px;
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 50rem){
     *{
         text-align: center;
     }
