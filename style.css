@@ -3,10 +3,13 @@
     font-family:  "Merriweather", Arial, Helvetica, sans-serif;
     letter-spacing: 1.5px;
 }
+h2{
+    font-size: 2.2rem;
+}
 body{
     margin: 0;
 }
-
+/*Header*/
 header{
     display: block;
     background-color: rgb(47, 128, 248);
@@ -31,6 +34,30 @@ nav ul li{
     color: snow;
     padding: 0 15px;
 }
+/*Main*/
+main{
+
+}
+/*Profile*/
+.profile-cont{
+    display: flex;
+    justify-content: space-around;
+}
+.img-cont{
+    flex-grow: 1;
+    margin: 20px;
+}
+#profile{
+    border-radius: 100px;
+    height: auto;
+    max-width: 200px;
+}
+
+.bio-cont{
+    flex-grow: 3;
+    padding: 0 10%;
+}
+
 @media screen and (max-width: 50rem){
     *{
         text-align: center;
