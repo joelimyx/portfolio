@@ -6,6 +6,9 @@
 h2{
     font-size: 2.2rem;
 }
+h3{
+    font-size: 1.2rem;
+}
 body{
     margin: 0;
 }
@@ -34,9 +37,9 @@ nav ul li{
     color: snow;
     padding: 0 15px;
 }
-/*Main*/
+/**/
 main{
-
+    margin-left: 5%;
 }
 /*Profile*/
 .profile-cont{
@@ -45,7 +48,7 @@ main{
 }
 .img-cont{
     flex-grow: 1;
-    margin: 20px;
+    margin: 15px;
 }
 #profile{
     border-radius: 100px;
@@ -55,7 +58,10 @@ main{
 
 .bio-cont{
     flex-grow: 3;
-    padding: 0 10%;
+    padding: 0 5%;
+}
+.project-cont{
+    
 }
 
 @media screen and (max-width: 50rem){
