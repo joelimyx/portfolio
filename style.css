@@ -3,6 +3,10 @@
     font-family:  "Merriweather", Arial, Helvetica, sans-serif;
     letter-spacing: 1.5px;
 }
+li{
+    list-style-type: none;
+    display: inline-block;
+}
 h2{
     font-size: 2.2rem;
 }
@@ -31,8 +35,6 @@ nav ul{
     justify-content: flex-end;
 }
 nav ul li{
-    list-style-type: none;
-    display: inline-block;
     font-size: 1.5rem;
     color: snow;
     padding: 0 15px;
@@ -60,8 +62,9 @@ main{
     flex-grow: 3;
     padding: 0 5%;
 }
-.project-cont{
-    
+
+footer{
+    background-color: rgb(47, 128, 248);
 }
 
 @media screen and (max-width: 50rem){
