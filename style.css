@@ -79,6 +79,9 @@ footer ul{
 footer ul li{
     padding: 10px;
 }
+.attribute{
+    display: none;
+}
 .icon{
     height: 2rem;
     border: 1px rgba(190, 190, 190);
