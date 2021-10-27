@@ -65,6 +65,23 @@ main{
 
 footer{
     background-color: rgb(47, 128, 248);
+    color: white;
+    padding: 0.6rem 2rem;
+}
+footer h2{
+    margin: 1rem auto;
+}
+
+footer ul{
+    margin-bottom: 0;
+    padding-bottom: 1rem;
+}
+footer ul li{
+    padding: 10px;
+}
+.icon{
+    height: 2rem;
+    border: 1px rgba(190, 190, 190);
 }
 
 @media screen and (max-width: 50rem){
